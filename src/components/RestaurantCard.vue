@@ -23,7 +23,7 @@ export default {
    info_restaurant: Object
  },
   setup(props){
-    // console.log(props.info_restaurant)
+    console.log(props.info_restaurant)
     const changeBg = computed(() => {
       return {
         backgroundImage: `url(${props.info_restaurant.image}`
